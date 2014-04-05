@@ -819,23 +819,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="wrap">
 					<div class="form">
 					<div class="contact-form">
-							<form method="post" action="contact-post.html">
-								 		 <div>
-									    	<span><label>Name</label></span>
-									    	<span><input name="userName" type="text" class="textbox"></span>
-									    </div>
+							<form method="post" action="/sendContact">{% csrf_token %}
+
 									    <div>
 									    	<span><label>E-Mail</label></span>
-									    	<span><input name="userEmail" type="text" class="textbox"></span>
+									    	<span><input name="sender" id="id_sender" type="email" class="textbox"></span>
 									    </div>
-									    <div>
-									     	<span><label>Subject</label></span>
-									    	<span><input name="userPhone" type="text" class="textbox"></span>
-									    </div>
-									    <div>
-									    	<span><label>Message</label></span>
-									    	<span><textarea name="userMsg"> </textarea></span>
-									    </div>
+									   
 									   <div>
 									   		<span><input type="submit" value="Send"></span>
 									  </div>
