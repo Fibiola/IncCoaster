@@ -51,7 +51,7 @@
 	background:#39A38F;
 }
 .carousel li:hover .caption-info-head-right span{
-	background:url(../images/arrows.png) no-repeat 0px -26px;
+	background:url(../img/arrows.png) no-repeat 0px -26px;
 }
 .caption-info-head-left{
 	float:left;
@@ -85,7 +85,7 @@
 .caption-info-head-right span{
 	width:20px;
 	height:16px;
-	background:url(../images/arrows.png) no-repeat 0px 0px;
+	background:url(../img/arrows.png) no-repeat 0px 0px;
 	display:inline-block;
 	}
 /* Styling Next and Prev buttons */
@@ -110,20 +110,20 @@
 	position: absolute;
 	top: 40%;
 	left: -7%;
-	background: url(../images/c-arrows.png) no-repeat;
+	background: url(../img/c-arrows.png) no-repeat;
 }
 .owl-prev:hover
 {
-	background: url(../images/c-arrows.png) -50px 0px no-repeat;
+	background: url(../img/c-arrows.png) -50px 0px no-repeat;
 }
 .owl-next{
 	position: absolute;
 	top: 40%;
 	right: -7%;
-	background: url(../images/c-arrows.png) no-repeat -19px 0px;
+	background: url(../img/c-arrows.png) no-repeat -19px 0px;
 }
 .owl-next:hover{
-	background: url(../images/c-arrows.png) no-repeat -71px 0px;
+	background: url(../img/c-arrows.png) no-repeat -71px 0px;
 }
 /* Styling Pagination*/
 
@@ -237,19 +237,19 @@
 .caption-info-head-right li a span{
 	width:15px;
 	height:17px;
-	background: url(../images/socil.png);
+	background: url(../img/socil.png);
 	display:block;
 }
 .carousel:hover .caption-info-head-right ul .twitter a span {
-	background: url(../images/socil.png) no-repeat -57px -54px ;
+	background: url(../img/socil.png) no-repeat -57px -54px ;
 }
 .carousel:hover .caption-info-head-right ul .facebook a span{
-	background: url(../images/socil.png) no-repeat -84px -54px ;
+	background: url(../img/socil.png) no-repeat -84px -54px ;
 }
 .social_icons li  a span{
 	width:15px;
 	height:17px;
-	background: url(../images/socil.png) no-repeat;
+	background: url(../img/socil.png) no-repeat;
 	display:block;
 }
 .caption-info-head-right ul .twitter a span
