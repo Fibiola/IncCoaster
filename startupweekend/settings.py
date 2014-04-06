@@ -36,7 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'landing'
+    'landing',
+    'mailchimp'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -91,6 +92,8 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
+
+MAILCHIMP_API_KEY = 'ffa547aff76647b890253986193b3d12-us7'
 
 # Static asset configuration
 import os
