@@ -69,7 +69,7 @@ header {
 	line-height: 28px;
 }
 .logo1 {
-	width: 531px;
+	width: 561px;
 	margin: 0 auto;
 }
 .bg_mask {
@@ -1104,7 +1104,7 @@ button::-moz-focus-inner {
 @media screen and (max-width: 1366px)
 {
 	.logo1 {
-	width: 315px;
+	width: 355px;
 	}
 	.about h2 {
 	font-size: 3em;
@@ -1128,7 +1128,7 @@ button::-moz-focus-inner {
 		width:87%;
 	}
 	.logo1 {
-	width: 300px;
+	width: 340px;
 	}
 	.navigation {
 	width: 45%;
@@ -1530,7 +1530,7 @@ button::-moz-focus-inner {
 
 
 .subscription {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   width: 50%;
   margin: 0 auto;
   padding: 20px;
