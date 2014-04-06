@@ -292,7 +292,7 @@ header h6{
 	float: left;
 	margin-right: 2%;
 	text-align: center;
-	padding-bottom: 3em;
+	padding-bottom: none;
 }
 .top-grid:nth-child(3),.top-grid:nth-child(6){
 	margin-right:0px;
@@ -1119,7 +1119,7 @@ button::-moz-focus-inner {
 	display: none;
 	}
 	#container {
-	height: 550px !important;
+	height: 259px !important;
 	}
 }
 @media screen and (max-width: 1280px)
