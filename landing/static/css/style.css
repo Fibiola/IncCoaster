@@ -48,8 +48,9 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 .header{
-	background:url(../img/office4.jpg);
-  background-size: cover;
+	background:url(../img/office5.jpg) ;
+
+      background-size: cover;
 	top: 0;
 	left: 0;
 	width: 100%;
