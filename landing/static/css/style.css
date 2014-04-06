@@ -79,7 +79,7 @@ header {
 	left: 0px;
 	background:rgba(2, 2, 2, 0.09) url(../img/pattern.png) repeat top left;
 	z-index: 2;
-	padding: 10% 0 0% 0;
+	padding: 5% 0 0% 0;
 }
 .bg_mask1{
 	width: 100%;
@@ -437,7 +437,7 @@ header h6{
 /****/
 /******start_services******/
 .services {
-	padding-bottom: 3.7em;
+	padding-bottom: 0em;
 }
 .heading {
 	color: #303030;
