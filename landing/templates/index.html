@@ -23,9 +23,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="bg_mask">
 				<div class="wrap clearfix">
 					<div class="logo1"><img src="static/img/logooffice5white.png" alt="title" /></div>
+
 					<h1>Too much noise in the office?</h1>
 					<p>We can make it disappear.</p>
-					<h6> </h6>
+
+					<div class="subscription">
+										<form method="post" action="/sendContact">{% csrf_token %}
+									    <div>
+									    	<span style="display:block;"><label>Be the first to know when we launch!</label></span><br />
+									    	<span ><input name="sender" id="id_sender" type="email" class="textbox" placeholder="username@mail.com"></span>
+									  </div>
+									  <div class="send">
+									   		<span><input type="submit" value="Subscribe" ></span>
+									  </div>
+								</form>
+					</div>
+
 					<a href="#about" class="button scroll"><img src="static/img/down.png"></a>
 					<div class="clear"> </div>
 				</div>
@@ -65,30 +78,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script type="text/javascript" src="static/js/jquery.singlePageNav.js"></script>
 	<script type="text/javascript" src="static/js/jquery.sticky.js"></script>
 	<script type="text/javascript" src="static/js/scripts.js"></script>
-	<!-----end nav js------>
-	<!-----start-about------>
+	<!--end nav js-->
+	<!--start-about-->
 		<div class="about" id="about">
 			<div class="wrap">
 				<h2><span>.</span></h2>
-				<h4>Lorem Ipsum is simply</h4>
+				<h4>Statuspie - gadget that lets you </h4>
 				<h6> </h6>
-				<p class="para_a">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  vulputate,vehicula nisi vitae,lobortis ante.praesent sodales iaculis ultricies</p>
+				<p class="para_a">Ever find yourself completely unproductive due to constant interruptions which causes you to multitask? Studies show that during multitasking your effective IQ drops to up to 20% </p>
 				<!---strat-top-grids---->
 				<div class="top-grids">
 					<div class="top-grid">
 						<a class="icon monitor" href="#"> </a>
-						<a href="#">Some fancy<span>colors</span> </a>
-						<p>Lorem ipsum dolor sit amet, consctetur adipisicing elit, sed do eiusmod.sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<a href="#">Focused<span>work</span> </a>
+						<p>Let coworkers descretely know when you're focusing on something important and don't want to be disturbed.</p>
 					</div>
 					<div class="top-grid">
 						<a class="icon target" href="#"> </a>
-						<a href="#">Enough <span>coffee breaks</span></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<a href="#"> Better<span>Productivity</span></a>
+						<p>Uninterrupted workflow results in extraordinary results.</p>
 					</div>
 					<div class="top-grid">
 						<a class="icon event" href="#"> </a>
-						<a href="#">A little bit of <span>magic</span></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<a href="#"> Less<span>Stress</span></a>
+						<p>Equals happier workers and happier workers equals better creativity</p>
 					</div>
 					<div class="clear"> </div>
 				</div>
@@ -250,7 +263,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="slider2">
 		<div class=" bg_mask1 bg_mask2">
 			<div class="wrap">
-				<p><img src="static/img/lg.png">Lorem ipsum dolor sit amet, <span>consectetur adipisicing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <span>minim veniam</span>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <img src="static/img/lg.png"> </p>
+				<p><img src="static/img/lg.png"> Multitasking<span>is the biggest productivity killer</span>. It takes 10 min for worker to really continue work after interruption<img src="static/img/lg.png"> </p>
 				<h6> </h6>
 				<h4>Lorem ipsum</h4>
 			</div>
@@ -313,8 +326,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                                <p class="flx-skill-number">60%</p>
                                              </div>
                                        </div>
-                                       -->
-                               <!--end:flx-skill-widget-->
+
 
                                </div>
                              			 <div class="clear"> </div>
@@ -327,8 +339,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 
 
--->
-		<!--end container -->
 				<script src="static/js/jquery.magnific-popup.js" type="text/javascript"></script>
 				<script>
 					$(document).ready(function() {
@@ -345,6 +355,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					});
 				});
 				</script>
+
+
+
+-->
 				<!--end-mfp -->
 				<!--
 		<div class="team_members">
@@ -699,7 +713,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </footer>
                             </figcaption>
                         </figure>
-
                     </li>
 
                     <li class="element ios-app">
@@ -826,60 +839,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script src="static/js/custom.js"></script>
 
 
-	<!------contact------------->
-	<div class="contact" id="contact">
-		<h3 class="heading">Contact</h3>
-		<p class="desc">we would really love to hear from you</p>
-		<h6> </h6>
-		<div class="contact-bg">
-				<div class="tool_tip">
-					<a href="#"><img src="static/img/logo1.png"/></a>
-				</div>
+	<!--contact-->
 
-				<div class="wrap">
-					<div class="form">
-					<div class="contact-form">
-							<form method="post" action="/sendContact">{% csrf_token %}
-
-									    <div>
-									    	<span><label>E-Mail</label></span>
-									    	<span><input name="sender" id="id_sender" type="email" class="textbox"></span>
-									    </div>
-									   
-									   <div>
-									   		<span><input type="submit" value="Send"></span>
-									  </div>
-								</form>
-					</div>
-					<div class="address">
-						<h3 class="heading">Contactinfo</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-						<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<div class="c_grids">
-							<a class=" icon pointor" href="#"> </a>
-							<p>Lorem ipsum dolor 123</p>
-							<p>1000 Lorem ipsum</p>
-							<div class="clear"> </div>
-						</div>
-						<div class="c_grids">
-							<a class=" icon contact-img" href="#"> </a>
-							<p>Lorem ipsum dolor 123</p>
-							<p>1000 Lorem ipsum</p>
-							<div class="clear"> </div>
-						</div>
-						<div class="c_grids">
-							<a class=" icon website" href="#"> </a>
-							<p>Lorem ipsum dolor 123</p>
-							<p>1000 Lorem ipsum</p>
-							<div class="clear"> </div>
-						</div>
-					</div>
-				<div class="clear"> </div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!------end-contact--------->
+	<!--end-contact-->
 	<div class="footer">
    	    <div class="wrap">
    	    	<div class="footer-left">
@@ -910,7 +872,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					easingType: 'linear'
 		 		};
 				$().UItoTop({ easingType: 'easeOutQuart' });
-
 			});
 		</script>
 		<script type="text/javascript">
@@ -921,7 +882,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		});
 	</script>
-
 		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
 
    </div>

@@ -185,10 +185,10 @@ header h6{
 }
 
 .button {
-	padding: 25px 45px;
+	padding: 20px 45px;
 	text-align: center;
 	display: block;
-	margin: 10% 0% 0% 0%;
+	margin: 3% 0% 0% 0%;
 }
 .button:hover {
 	opacity: 0.8;
@@ -988,10 +988,10 @@ button::-moz-focus-inner {
 	color: #303030;
 	padding-bottom:10px;
 }
-.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{
+.subscription input[type="text"],.subscription input[type="email"],.contact-form textarea{
 	padding:8px;
 	display:block;
-	width:90%;
+	width:50%;
 	background:#fff;
 	border: none;
 	outline:none;
@@ -1000,12 +1000,15 @@ button::-moz-focus-inner {
 	border:1px solid #EBEBEB;
 	font-family: 'Lato', sans-serif;
 	-webkit-appearance:none;
+
+
+  margin: 0 auto;
 }
 .contact-form textarea{
 	resize:none;
 	height:120px;
 }
-.contact-form input[type="submit"]{
+.send input[type="submit"]{
 	cursor:pointer;
 	color:#fff;
 	font-size: 1.2em;
@@ -1014,7 +1017,7 @@ button::-moz-focus-inner {
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 	background: #39A38F;
-	padding:15px 20px;
+	padding:10px 10px;
 	border:none;
 	 font-family: 'Lato', sans-serif;
 	   margin-top: 20px;
@@ -1471,7 +1474,7 @@ button::-moz-focus-inner {
 	margin: 0px;
 	}
 	.contact-form input[type="submit"] {
-	padding: 10px 20px;
+	padding: 5px 10px;
 	}
 	.address {
 	width: 83%;
@@ -1522,4 +1525,12 @@ button::-moz-focus-inner {
 
 .navbar {
   float: center;
+}
+
+
+.subscription {
+  background: rgba(0, 0, 0, 0.3);
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
 }
